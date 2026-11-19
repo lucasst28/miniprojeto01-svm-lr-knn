@@ -1,0 +1,26 @@
+# ambiente e caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# dados (o CDC é baixado do OpenML; o Mice Protein vem do Kaggle, ver README)
+dados/
+
+# scripts e saídas da primeira versão (substituídos pelos notebooks)
+experimentos.py
+significancia.py
+proteinas.py
+painel.py
+rodar_tudo.sh
+resultados/
+*.log
+
+# auxiliares do LaTeX (o relatorio.pdf entra)
+relatorio/*.aux
+relatorio/*.bbl
+relatorio/*.blg
+relatorio/*.fdb_latexmk
+relatorio/*.fls
+relatorio/*.out
+relatorio/*Notes.bib
